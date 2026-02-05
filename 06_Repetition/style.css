@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* margin: 39%; */
+}
+
+section{
+    width: 300px;
+    height: 300px;
+    border: 5px solid gray;
+    background-color: gray;
+    padding: 10px; 
+    border-radius: 15px;
+    /* height: 100vh; */
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
