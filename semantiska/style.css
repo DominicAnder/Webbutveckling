@@ -2,5 +2,6 @@
 
 section {
     position: fixed;
-    background: gray;
+    background: grey;
+    color: white;
 }
