@@ -1,7 +1,10 @@
 
 
-section {
+header {
     position: fixed;
-    background: grey;
+    background: black;
     color: white;
+    top: 0;
+    width: 100%;
+    display: inline-block;
 }
