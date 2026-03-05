@@ -1,0 +1,57 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Optima";
+    src: url(optima-demibold/OptimaDemiBold/OptimaDemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Optimus;
+    src: url(optimus-princeps/OptimusPrinceps.ttf);
+}
+
+body{
+    margin: 0;
+    font-family: Optima;
+}
+
+header{
+    background: #333333;
+    text-align: center;
+    padding: 10px;
+    color: #ab966f;
+    margin-bottom: 0.3px;
+}
+
+h1{
+    color: #cdaa63;
+    margin-top: 8px;
+    font-family: Optimus;
+    font-weight: normal;
+    font-size: 55px;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+nav{
+    background: #444;
+}
+
+nav a{
+    color: #ab966f;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    display: inline-flex;
+    font-weight: normal;
+    margin-right: 10px;
+    font-family: Optimus;
+    font-size: large;
+}
+
+nav a:hover{
+    color: #dcd0b3;
+}
