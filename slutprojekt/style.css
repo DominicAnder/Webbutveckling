@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 main{
-    background: url(images/RingedCity.avif);
+    background: url(images/RingedCity.avif) black;
     background-size: cover;
     min-height: 600px;
     padding: 40px;
