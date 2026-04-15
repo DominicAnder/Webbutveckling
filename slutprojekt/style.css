@@ -10,6 +10,12 @@
     src: url(optimus-princeps/OptimusPrinceps.ttf);
 }
 
+ @media (max-width: 768px) {
+    nav a{
+        display: flex;
+    }
+ }
+
 body{
     margin: 0;
     font-family: Optima;
