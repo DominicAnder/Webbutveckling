@@ -10,9 +10,51 @@
     src: url(optimus-princeps/OptimusPrinceps.ttf);
 }
 
+#ds1{
+    margin-right: 20px;
+}
+
+#ds3{
+    margin-left: 20px;
+}
+
+.bild{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav a:nth-child(1){grid-area: HOME;}
+nav a:nth-child(2){grid-area: WORLD;}
+nav a:nth-child(3){grid-area: COVENANT;}
+nav a:nth-child(4){grid-area: NPC;}
+nav a:nth-child(5){grid-area: BOSS;}
+nav a:nth-child(6){grid-area: VIDEO;}
+
  @media (max-width: 768px) {
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "HOME  WORLD  COVENANT"
+        "NPC   BOSS   VIDEO";
+        justify-items: center;
+        padding: 5px;
+    }
     nav a{
-        display: flex;
+        display: block;
+        margin-right: 0;
+    }
+    #ds1{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #ds3{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .bild{
+        flex-direction: column;
     }
  }
 
@@ -87,3 +129,5 @@ p{
     color: #fefefa;
     margin: 40px;
 }
+
+
